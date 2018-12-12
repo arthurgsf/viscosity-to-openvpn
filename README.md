@@ -2,7 +2,10 @@
 
 ## Build
 ```
-docker build .
+docker build -t visc .
 ```
 
-
+## Run
+```
+docker run -v $(pwd):/ visc
+```
